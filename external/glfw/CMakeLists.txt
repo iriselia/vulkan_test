@@ -1,0 +1,13 @@
+SET( DEFINE
+_CRT_SECURE_NO_WARNINGS
+)
+
+find_package(Vulkan REQUIRED)
+
+SET( INCLUDE
+"${Vulkan_INCLUDE_DIR}"
+)
+SET( LINK
+${Vulkan_LIBRARIES}
+)
+create_project(STATIC DEFINE INCLUDE LINK)
