@@ -1,3 +1,6 @@
 [submodule "cmaid"]
 	path = cmaid
 	url = https://github.com/jpark730/cmaid
+[submodule "external/aqt"]
+	path = external/aqt
+	url = https://github.com/jpark730/aqt.git
